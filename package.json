@@ -1,0 +1,26 @@
+{
+  "name": "gollum.luckynode.com",
+  "version": "0.0.1",
+  "description": "Luckynode Backup Mechanism",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/alirizadikici/com.luckynode.gollum.git"
+  },
+  "author": "Ali Riza Dikici",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alirizadikici/com.luckynode.gollum#readme",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "moment": "^2.13.0",
+    "mongojs": "^2.4.0",
+    "nodemailer": "^2.4.1",
+    "nodemailer-smtp-transport": "^2.5.0",
+    "opbeat": "^3.6.7",
+    "q": "^1.4.1"
+  }
+}

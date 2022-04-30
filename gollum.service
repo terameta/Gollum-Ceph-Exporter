@@ -1,0 +1,16 @@
+[Unit]
+Description=Gollum (Back Upper)
+Documentation=https://epmvirtual.com
+After=network.target
+
+[Service]
+Environment=NODE_PORT=7000
+Type=simple
+User=aliriza
+SyslogIdentifier=gollum
+WorkingDirectory=/home/aliriza/gollum.epmvirtual.com
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
