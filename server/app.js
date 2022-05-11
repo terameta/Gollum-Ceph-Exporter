@@ -1,5 +1,5 @@
 var opbeat = require('opbeat').start({
-  appId: '***REMOVED***',
+  appId: 'db76d7f643',
   organizationId: '***REMOVED***',
   secretToken: '***REMOVED***'
 });
